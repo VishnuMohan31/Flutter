@@ -45,5 +45,25 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<!-- Microphone Permission for Voice Input -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MindScribe needs microphone access to enable voice-to-text input for your diary entries.</string>
+	
+	<!-- Speech Recognition Permission -->
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>MindScribe uses speech recognition to convert your voice into text for diary entries.</string>
+	
+	<!-- Notification Permission -->
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>MindScribe sends reminders for your scheduled diary entries and events.</string>
+	
+	<!-- Background Modes for Notifications -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>
